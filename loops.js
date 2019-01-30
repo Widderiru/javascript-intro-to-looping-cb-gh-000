@@ -23,6 +23,6 @@ function doWhileLoop (array) {
     i = i + 1;
   }
   do {
-    array.pop()
+    array.pop();
   } while (array.length > 0 && incrementVariable() < 5)
 }
